@@ -4,4 +4,5 @@
 <span>
    <%= link_to list.title, todolist_path(list.id) %>
 </span>
+<%= attachment_image_tag list, :image, :fill, 100, 100, format: 'jpeg' %>
 <% end %>
